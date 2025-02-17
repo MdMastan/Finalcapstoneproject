@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <!-- Interviewer Name -->
+    <TextView
+        android:id="@+id/tvDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interviewer Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Interview Date -->
+    <TextView
+        android:id="@+id/tvDetailDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="16sp" />
+
+    <!-- Interview Time -->
+    <TextView
+        android:id="@+id/tvDetailTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="16sp" />
+
+    <!-- Interview Subject -->
+    <TextView
+        android:id="@+id/tvDetailSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textSize="16sp" />
+
+    <!-- Interview Status -->
+    <TextView
+        android:id="@+id/tvDetailStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <!-- Book Slot Button -->
+    <Button
+        android:id="@+id/btnBookSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Slot" />
+
+    <!-- Release Slot Button -->
+    <Button
+        android:id="@+id/btnReleaseSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Release Slot"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
