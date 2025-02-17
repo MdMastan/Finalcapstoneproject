@@ -63,7 +63,21 @@ class DashboardFragment : Fragment() {
         interviewerList.add(Interviewer("Ella Carter", "2025-03-22", "12:45 PM", "01:45 PM", "Objective-C", "Booked"))
         interviewerList.add(Interviewer("Liam Baker", "2025-03-23", "03:15 PM", "04:15 PM", "F#", "Available"))
         interviewerList.add(Interviewer("Madison Gonzalez", "2025-03-24", "05:45 PM", "06:45 PM", "Fortran", "Available"))
-
+        interviewerList.add(Interviewer("Noah Perez", "2025-03-25", "09:00 AM", "10:00 AM", "COBOL", "Booked"))
+        interviewerList.add(Interviewer("Lily Rivera", "2025-03-26", "10:30 AM", "11:30 AM", "VB.NET", "Available"))
+        interviewerList.add(Interviewer("Mason Torres", "2025-03-27", "01:00 PM", "02:00 PM", "Julia", "Available"))
+        interviewerList.add(Interviewer("Scarlett Ramirez", "2025-03-28", "02:30 PM", "03:30 PM", "Ada", "Booked"))
+        interviewerList.add(Interviewer("Lucas Flores", "2025-03-29", "03:45 PM", "04:45 PM", "Erlang", "Available"))
+        interviewerList.add(Interviewer("Grace Lee", "2025-03-30", "09:15 AM", "10:15 AM", "Prolog", "Available"))
+        interviewerList.add(Interviewer("Jackson Diaz", "2025-03-31", "11:00 AM", "12:00 PM", "Racket", "Booked"))
+        interviewerList.add(Interviewer("Sofia Hernandez", "2025-04-01", "01:45 PM", "02:45 PM", "Scheme", "Available"))
+        interviewerList.add(Interviewer("Aiden Martinez", "2025-04-02", "04:00 PM", "05:00 PM", "Elixir", "Available"))
+        interviewerList.add(Interviewer("Chloe Robinson", "2025-04-03", "08:30 AM", "09:30 AM", "D", "Booked"))
+        interviewerList.add(Interviewer("Carter Wilson", "2025-04-04", "10:00 AM", "11:00 AM", "Smalltalk", "Available"))
+        interviewerList.add(Interviewer("Zoe Scott", "2025-04-05", "12:30 PM", "01:30 PM", "Tcl", "Available"))
+        interviewerList.add(Interviewer("Logan Hall", "2025-04-06", "03:00 PM", "04:00 PM", "Lisp", "Booked"))
+        interviewerList.add(Interviewer("Penelope Adams", "2025-04-07", "05:00 PM", "06:00 PM", "Modula-2", "Available"))
+        interviewerList.add(Interviewer("Gabriel Wright", "2025-04-08", "09:45 AM", "10:45 AM", "OCaml", "Available"))
 
     }
 }
